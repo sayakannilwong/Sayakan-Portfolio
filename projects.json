@@ -1,0 +1,83 @@
+[
+  {
+    "title": "NUT WALKER\nNEW PRODUCT",
+    "type": "1 / SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/thumbnail/NW - 6-2.png",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "HERITAGE CELEBRATE\nOLYMPIC DAY",
+    "type": "2 / SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/thumbnail/250611_HER AW Olympic Day (JUN 23).png",
+    "link": "#"
+    ,
+    "featured": true
+  },
+  {
+    "title": "NUT WALKER\nCHINESE VEGETARIAN FESTIVAL",
+    "type": "3 / SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/thumbnail/NW SEP 24 - 8_NewLogo.jpg",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "BANGKOK DIGITAL\nFINANCE CONFERENCE",
+    "type": "4 / EXHIBITION",
+    "category": "exhibition",
+    "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_30.jpg",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "LUV EVENT",
+    "type": "5 / EXHIBITION",
+    "category": "exhibition",
+    "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_7.jpg",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "NEW ZEALAND BALL",
+    "type": "6 / EXHIBITION",
+    "category": "exhibition",
+    "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_45.jpg",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "HERITAGE\nงานภริยาทูต",
+    "type": "7 / EXHIBITION",
+    "category": "exhibition",
+    "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_51.jpg",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "NUT WALKER\nโฆษณา",
+    "type": "8 / MOTION",
+    "category": "motion",
+    "image": "assets/IMG/thumbnail/Screenshot 2026-04-09 174114.png",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "LUV",
+    "type": "9 / MOTION",
+    "category": "motion",
+    "image": "assets/IMG/thumbnail/Screenshot 2026-04-09 174131.png",
+    "link": "#",
+    "featured": true
+  },
+  {
+    "title": "BLUE DIAMOND\nALMONDS",
+    "type": "10 / MOTION",
+    "category": "motion",
+    "image": "assets/IMG/thumbnail/Screenshot 2026-04-09 174157.png",
+    "link": "#",
+    "featured": true
+  }
+]

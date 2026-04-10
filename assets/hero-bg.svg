@@ -1,0 +1,42 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1000" fill="#0B0B0B"/>
+<g opacity="0.95">
+  <ellipse cx="370" cy="330" rx="210" ry="320" transform="rotate(32 370 330)" fill="url(#g1)"/>
+  <ellipse cx="1120" cy="320" rx="190" ry="310" transform="rotate(-24 1120 320)" fill="url(#g2)"/>
+  <ellipse cx="812" cy="540" rx="210" ry="340" transform="rotate(18 812 540)" fill="url(#g3)"/>
+  <ellipse cx="470" cy="770" rx="110" ry="70" transform="rotate(12 470 770)" fill="url(#g4)"/>
+  <ellipse cx="1260" cy="750" rx="130" ry="84" transform="rotate(-18 1260 750)" fill="url(#g5)"/>
+</g>
+<g opacity="0.35" fill="#F2F2F2">
+  <circle cx="180" cy="140" r="5"/>
+  <circle cx="1260" cy="110" r="4"/>
+  <circle cx="1040" cy="890" r="7"/>
+  <circle cx="1500" cy="640" r="5"/>
+  <circle cx="300" cy="880" r="6"/>
+  <circle cx="550" cy="170" r="4"/>
+  <circle cx="840" cy="210" r="5"/>
+  <circle cx="80" cy="620" r="7"/>
+</g>
+<defs>
+  <linearGradient id="g1" x1="160" y1="40" x2="590" y2="660" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#3B3B3B"/>
+    <stop offset="1" stop-color="#121212"/>
+  </linearGradient>
+  <linearGradient id="g2" x1="980" y1="60" x2="1320" y2="630" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#4A4A4A"/>
+    <stop offset="1" stop-color="#121212"/>
+  </linearGradient>
+  <linearGradient id="g3" x1="600" y1="240" x2="1040" y2="860" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#555555"/>
+    <stop offset="1" stop-color="#121212"/>
+  </linearGradient>
+  <linearGradient id="g4" x1="360" y1="706" x2="560" y2="840" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#666666"/>
+    <stop offset="1" stop-color="#171717"/>
+  </linearGradient>
+  <linearGradient id="g5" x1="1130" y1="660" x2="1390" y2="838" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#5B5B5B"/>
+    <stop offset="1" stop-color="#171717"/>
+  </linearGradient>
+</defs>
+</svg>

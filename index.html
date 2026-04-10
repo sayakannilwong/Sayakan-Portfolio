@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Few Portfolio</title>
+  <meta name="description" content="Minimal dark portfolio for GitHub Pages" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#hero">FEW</a>
+
+      <nav class="nav">
+        <a href="#hero" class="nav-link active">HOME</a>
+        <a href="#projects" class="nav-link">WORK</a>
+        <a href="#about" class="nav-link">ABOUT</a>
+      </nav>
+
+      <a class="contact-btn" href="#contact">CONTACT</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero-bg">
+        <img src="assets/hero-bg.svg" alt="Hero background" />
+      </div>
+
+      <div class="container hero-content reveal">
+        <p class="eyebrow">Creative Direction / Portfolio</p>
+        <h1>PORTFOLIO</h1>
+        <p class="hero-text">
+          Redefining digital landscapes through <span>brutalism</span> and <span>Neon Noir</span>
+          aesthetics. Based in the shadows, creating for the light.
+        </p>
+
+        <a href="#projects" class="scroll-link">
+          <span>SCROLL TO EXPLORE</span>
+          <i></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container projects-wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Selected Works</p>
+            <h2>PROJECTS</h2>
+          </div>
+
+          <div class="project-filter" id="projectFilter"></div>
+        </div>
+
+        <div class="project-grid" id="projectGrid"></div>
+
+        <div class="project-footer reveal">
+          <a href="works.html" class="view-all-btn">VIEW ALL WORKS</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="eyebrow">About</p>
+          <h2>DESIGNING WITH DEPTH, CONTRAST, AND MOTION.</h2>
+        </div>
+
+        <div class="reveal">
+          <p>
+            This portfolio is designed to showcase all of my past work.
+          </p>
+          <p>
+            Project thumbnails start in grayscale and reveal full color on hover
+            for a sharper, more premium presentation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-box reveal">
+        <p class="eyebrow">Project Inquiry</p>
+        <h2>LET’S<br>TALK</h2>
+
+        <div class="contact-actions">
+          <a
+            class="mail-btn"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=sayakannilwong@gmail.com&su=Project%20Inquiry&body=Hello%20Few,"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            sayakannilwong@gmail.com <span>→</span>
+          </a>
+          <a class="icon-btn" href="#" aria-label="Share">↗</a>
+          <a class="icon-btn" href="#" aria-label="Like">♡</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <span>FEW</span>
+      <span>© 2026 TOP. ALL RIGHTS RESERVED.</span>
+
+      <div class="footer-links">
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="900" fill="#090909"/>
+<rect x="125" y="180" width="550" height="420" rx="28" fill="url(#d1)"/>
+<rect x="195" y="250" width="410" height="280" rx="18" fill="#121212" stroke="#2A2A2A" stroke-width="2"/>
+<rect x="262" y="308" width="276" height="110" rx="12" fill="url(#d2)"/>
+<circle cx="228" cy="340" r="10" fill="#7AE7FF"/>
+<circle cx="228" cy="390" r="10" fill="#FF7AA2"/>
+<circle cx="228" cy="440" r="10" fill="#FFE07A"/>
+<circle cx="574" cy="340" r="10" fill="#7AFFB5"/>
+<circle cx="574" cy="390" r="10" fill="#A58BFF"/>
+<circle cx="574" cy="440" r="10" fill="#FFA75E"/>
+<rect x="212" y="560" width="376" height="20" rx="10" fill="url(#d3)"/>
+<defs>
+<linearGradient id="d1" x1="125" y1="180" x2="675" y2="600" gradientUnits="userSpaceOnUse">
+<stop stop-color="#161A24"/><stop offset="1" stop-color="#202020"/>
+</linearGradient>
+<linearGradient id="d2" x1="262" y1="308" x2="538" y2="418" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00F5A0"/><stop offset="0.5" stop-color="#00D9F5"/><stop offset="1" stop-color="#7F5AF0"/>
+</linearGradient>
+<linearGradient id="d3" x1="212" y1="560" x2="588" y2="580" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF6A3D"/><stop offset="1" stop-color="#FAD961"/>
+</linearGradient>
+</defs>
+</svg>
