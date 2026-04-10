@@ -64,6 +64,10 @@ button {
   z-index: 1;
 }
 
+/* =========================
+   HEADER
+========================= */
+
 .site-header {
   position: fixed;
   top: 0;
@@ -160,6 +164,10 @@ button {
   box-shadow: 0 0 0 1px rgba(255, 77, 90, 0.18), 0 10px 30px rgba(255, 77, 90, 0.1);
 }
 
+/* =========================
+   TYPO
+========================= */
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--accent);
@@ -179,6 +187,10 @@ button {
   letter-spacing: -0.05em;
   font-weight: 900;
 }
+
+/* =========================
+   HERO
+========================= */
 
 .hero {
   min-height: 100vh;
@@ -266,6 +278,10 @@ button {
     opacity: 1;
   }
 }
+
+/* =========================
+   PROJECTS SECTION
+========================= */
 
 .projects {
   padding: 110px 0 220px;
@@ -383,18 +399,39 @@ button {
   pointer-events: none;
 }
 
-.project-image img {
+.project-image img,
+.project-video,
+.project-video-embed {
   width: 100%;
   height: 100%;
+  display: block;
+}
+
+.project-image img,
+.project-video {
   object-fit: cover;
+}
+
+.project-video-embed {
+  border: 0;
+  pointer-events: none;
+}
+
+.project-card:hover .project-image img,
+.project-card:hover .project-video {
+  transform: scale(1.06);
+}
+
+.project-image img,
+.project-video {
   filter: grayscale(100%) brightness(0.72);
   transform: scale(1.02);
   transition: filter 0.45s ease, transform 0.55s ease;
 }
 
-.project-card:hover .project-image img {
+.project-card:hover .project-image img,
+.project-card:hover .project-video {
   filter: grayscale(0%) brightness(1);
-  transform: scale(1.06);
 }
 
 .project-overlay {
@@ -456,6 +493,10 @@ button {
   color: var(--muted);
 }
 
+/* =========================
+   ABOUT
+========================= */
+
 .about {
   padding: 64px 0 110px;
 }
@@ -473,6 +514,10 @@ button {
   color: #c7c7c7;
   line-height: 1.8;
 }
+
+/* =========================
+   CONTACT
+========================= */
 
 .contact {
   padding: 40px 0 110px;
@@ -531,6 +576,10 @@ button {
   color: #fff;
 }
 
+/* =========================
+   FOOTER
+========================= */
+
 .site-footer {
   padding: 20px 0;
   border-top: 1px solid var(--line);
@@ -557,6 +606,10 @@ button {
 .footer-links a:hover {
   color: #fff;
 }
+
+/* =========================
+   PROJECT DETAIL PAGE
+========================= */
 
 .project-page {
   padding-top: 110px;
@@ -592,9 +645,30 @@ button {
   background: #0b0b0b;
 }
 
-.project-banner-image img {
+.project-banner-image img,
+.project-banner-video,
+.project-banner-embed {
   width: 100%;
   display: block;
+}
+
+.project-banner-video {
+  max-height: 80vh;
+  background: #000;
+}
+
+.project-banner-embed-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+.project-banner-embed {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  border: 0;
 }
 
 .project-info {
@@ -639,6 +713,10 @@ button {
   color: #fff;
 }
 
+/* =========================
+   PROJECT GALLERY
+========================= */
+
 .project-gallery {
   padding: 0 0 100px;
 }
@@ -674,17 +752,71 @@ button {
   aspect-ratio: 2 / 1;
 }
 
-.gallery-item img {
+.gallery-item img,
+.gallery-video,
+.gallery-video-embed {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   display: block;
+}
+
+.gallery-item img,
+.gallery-video {
+  object-fit: cover;
+}
+
+.gallery-video-embed {
+  border: 0;
+  pointer-events: none;
+}
+
+.gallery-item:hover img,
+.gallery-item:hover .gallery-video {
+  transform: scale(1.04);
+}
+
+.gallery-item img,
+.gallery-video {
   transition: transform 0.45s ease;
 }
 
-.gallery-item:hover img {
-  transform: scale(1.04);
+.gallery-item.is-video {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
+
+.video-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 18px;
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,0.06) 0%,
+    rgba(0,0,0,0.16) 55%,
+    rgba(0,0,0,0.55) 100%
+  );
+  pointer-events: none;
+}
+
+.video-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+}
+
+/* =========================
+   LIGHTBOX
+========================= */
 
 .lightbox {
   position: fixed;
@@ -712,6 +844,20 @@ button {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
 }
 
+.lightbox-video {
+  max-width: min(1200px, 92vw);
+  max-height: 88vh;
+  object-fit: contain;
+  background: #000;
+}
+
+.lightbox-embed {
+  width: min(1200px, 92vw);
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background: #000;
+}
+
 .lightbox-close {
   position: absolute;
   top: 18px;
@@ -731,6 +877,10 @@ button {
   color: var(--accent);
 }
 
+/* =========================
+   REVEAL
+========================= */
+
 .reveal {
   opacity: 0;
   transform: translateY(26px);
@@ -742,51 +892,9 @@ button {
   transform: translateY(0);
 }
 
-.project-video,
-.gallery-video,
-.project-banner-video,
-.lightbox-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.project-banner-video {
-  max-height: 80vh;
-  background: #000;
-}
-
-.gallery-item.is-video {
-  position: relative;
-}
-
-.video-open-btn {
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-  z-index: 2;
-  min-height: 40px;
-  padding: 0 16px;
-  border: 1px solid rgba(255,255,255,0.22);
-  background: rgba(0,0,0,0.45);
-  color: #fff;
-  cursor: pointer;
-  letter-spacing: 0.14em;
-  font-size: 0.68rem;
-}
-
-.video-open-btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
-.lightbox-video {
-  max-width: min(1200px, 92vw);
-  max-height: 88vh;
-  object-fit: contain;
-  background: #000;
-}
+/* =========================
+   RESPONSIVE
+========================= */
 
 @media (max-width: 900px) {
   .nav-wrap {

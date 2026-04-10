@@ -135,7 +135,6 @@ function renderBanner(project, plainTitle) {
           openLightboxVideoFile(project.video);
         });
       }
-
       return;
     }
 
@@ -204,14 +203,16 @@ function renderGallery(gallery, title) {
           <video class="gallery-video" muted loop playsinline preload="metadata">
             <source src="${escapeHtml(item.src)}" type="video/mp4" />
           </video>
-          <button class="video-open-btn" type="button">PLAY</button>
+          <div class="video-overlay">
+            <span class="video-badge">VIDEO</span>
+          </div>
         </div>
       `;
     }
 
     if (type === 'video-embed') {
       return `
-        <div class="gallery-item ${escapeHtml(size)} is-video" data-video-embed="${escapeHtml(item.src)}" data-title="${escapeHtml(title)}">
+        <div class="gallery-item ${escapeHtml(size)} is-video is-embed" data-video-embed="${escapeHtml(item.src)}" data-title="${escapeHtml(title)}">
           <iframe
             class="gallery-video-embed"
             src="${escapeHtml(item.src)}"
@@ -220,7 +221,9 @@ function renderGallery(gallery, title) {
             allow="autoplay; encrypted-media; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <button class="video-open-btn" type="button">OPEN</button>
+          <div class="video-overlay">
+            <span class="video-badge">VIDEO</span>
+          </div>
         </div>
       `;
     }
@@ -241,18 +244,9 @@ function renderGallery(gallery, title) {
 
   const fileVideoItems = projectGallery.querySelectorAll('.gallery-item[data-video-file]');
   fileVideoItems.forEach((item) => {
-    const btn = item.querySelector('.video-open-btn');
     const video = item.querySelector('video');
-
     if (video) {
       video.play().catch(() => {});
-    }
-
-    if (btn) {
-      btn.addEventListener('click', (event) => {
-        event.stopPropagation();
-        openLightboxVideoFile(item.dataset.videoFile);
-      });
     }
 
     item.addEventListener('click', () => {
@@ -262,15 +256,6 @@ function renderGallery(gallery, title) {
 
   const embedVideoItems = projectGallery.querySelectorAll('.gallery-item[data-video-embed]');
   embedVideoItems.forEach((item) => {
-    const btn = item.querySelector('.video-open-btn');
-
-    if (btn) {
-      btn.addEventListener('click', (event) => {
-        event.stopPropagation();
-        openLightboxVideoEmbed(item.dataset.videoEmbed, item.dataset.title);
-      });
-    }
-
     item.addEventListener('click', () => {
       openLightboxVideoEmbed(item.dataset.videoEmbed, item.dataset.title);
     });

@@ -200,9 +200,9 @@
     "title": "BLUE DIAMOND\nALMONDS",
     "type": "MOTION",
     "category": "motion",
-    "mediaType": "video",
+    "mediaType": "image",
     "videoType": "embed",
-    "video": "https://www.youtube.com/watch?v=AxpVvNIFJOg",
+    "video": "https://www.youtube.com/embed/AxpVvNIFJOg?si=zVtUjjxltkQDlEHj",
     "image": "assets/IMG/thumbnail/Screenshot 2026-04-09 174157.png",
     "link": "project.html?id=blue-diamond-almonds",
     "featured": true,
@@ -213,7 +213,7 @@
     "gallery": [
       {
         "type": "video-embed",
-        "src": "https://www.youtube.com/watch?v=AxpVvNIFJOg",
+        "src": "https://www.youtube.com/embed/AxpVvNIFJOg?si=zVtUjjxltkQDlEHj",
         "size": "wide"
       }
     ]
