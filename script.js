@@ -2,10 +2,19 @@ const header = document.querySelector('.site-header');
 const navLinks = document.querySelectorAll('.nav-link');
 const sections = document.querySelectorAll('main .section');
 const heroBg = document.querySelector('.hero-bg img');
+
 const projectGrid = document.getElementById('projectGrid');
 const projectFilter = document.getElementById('projectFilter');
 const projectFooter = document.getElementById('projectFooter');
+const sortToggleBtn = document.getElementById('sortToggleBtn');
+const sortIcon = document.getElementById('sortIcon');
+
 const isWorksPage = window.location.pathname.includes('works.html');
+
+let allProjects = [];
+let currentFilter = 'all';
+let currentSortOrder = 'desc'; // desc = ใหม่สุดก่อน, asc = เก่าสุดก่อน
+let disableHoverRevealGlobally = false;
 
 window.addEventListener('scroll', () => {
   if (header) {
@@ -127,7 +136,11 @@ function getProjectMedia(project) {
 function createProjectCard(project) {
   const titleHtml = project.titleHtml
     ? project.titleHtml
-    : escapeHtml(project.title).replace(/\\n/g, '<br>');
+    : escapeHtml(project.title).replace(/\n/g, '<br>');
+
+  const projectNo = Number.isFinite(Number(project.no))
+    ? String(project.no).padStart(2, '0')
+    : '--';
 
   return `
     <article class="project-card reveal" data-category="${escapeHtml(project.category)}">
@@ -135,13 +148,38 @@ function createProjectCard(project) {
         <div class="project-image">
           ${getProjectMedia(project)}
           <div class="project-overlay">
-            <p class="project-type">${escapeHtml(project.type)}</p>
+            <p class="project-type">${projectNo} / ${escapeHtml(project.type)}</p>
             <h3>${titleHtml}</h3>
           </div>
         </div>
       </a>
     </article>
   `;
+}
+
+function sortProjects(projects, order = 'desc') {
+  return [...projects].sort((a, b) => {
+    const noA = Number.isFinite(Number(a.no)) ? Number(a.no) : -999999;
+    const noB = Number.isFinite(Number(b.no)) ? Number(b.no) : -999999;
+
+    return order === 'asc' ? noA - noB : noB - noA;
+  });
+}
+
+function getVisibleProjects() {
+  let visible = [...allProjects];
+
+  if (!isWorksPage) {
+    visible = visible.filter((project) => project.featured === true);
+  }
+
+  if (currentFilter !== 'all') {
+    visible = visible.filter((project) => project.category === currentFilter);
+  }
+
+  visible = sortProjects(visible, currentSortOrder);
+
+  return visible;
 }
 
 function renderProjects(projects) {
@@ -161,14 +199,19 @@ function renderProjects(projects) {
   });
 }
 
+function updateProjectView() {
+  const visibleProjects = getVisibleProjects();
+  renderProjects(visibleProjects);
+}
+
 function renderFilters(projects) {
   if (!projectFilter) return;
 
   const categories = [...new Set(projects.map((project) => project.category))];
   const allFilters = ['all', ...categories];
 
-  projectFilter.innerHTML = allFilters.map((category, index) => `
-    <button class="filter-btn ${index === 0 ? 'active' : ''}" data-filter="${escapeHtml(category)}">
+  projectFilter.innerHTML = allFilters.map((category) => `
+    <button class="filter-btn ${category === currentFilter ? 'active' : ''}" data-filter="${escapeHtml(category)}">
       ${escapeHtml(getCategoryLabel(category))}
     </button>
   `).join('');
@@ -177,18 +220,37 @@ function renderFilters(projects) {
 
   filterButtons.forEach((button) => {
     button.addEventListener('click', () => {
-      const selected = button.dataset.filter;
+      currentFilter = button.dataset.filter;
 
       filterButtons.forEach((btn) => btn.classList.remove('active'));
       button.classList.add('active');
 
-      const cards = projectGrid.querySelectorAll('.project-card');
-      cards.forEach((card) => {
-        const matched = selected === 'all' || card.dataset.category === selected;
-        card.style.display = matched ? 'block' : 'none';
-      });
+      updateProjectView();
     });
   });
+}
+
+function setupSortToggle() {
+  if (!sortToggleBtn) return;
+
+  updateSortButtonUI();
+
+  sortToggleBtn.addEventListener('click', () => {
+    currentSortOrder = currentSortOrder === 'desc' ? 'asc' : 'desc';
+    updateSortButtonUI();
+    updateProjectView();
+  });
+}
+
+function updateSortButtonUI() {
+  if (!sortToggleBtn || !sortIcon) return;
+
+  const isNewest = currentSortOrder === 'desc';
+
+  sortToggleBtn.dataset.order = currentSortOrder;
+  sortToggleBtn.setAttribute('aria-label', isNewest ? 'Sort by newest' : 'Sort by oldest');
+  sortToggleBtn.setAttribute('title', isNewest ? 'Sort by newest' : 'Sort by oldest');
+  sortIcon.textContent = isNewest ? '↓' : '↑';
 }
 
 async function loadProjects() {
@@ -199,11 +261,19 @@ async function loadProjects() {
     }
 
     const rawData = await response.json();
-    let projects = normalizeProjects(rawData);
+    allProjects = normalizeProjects(rawData);
+
+    disableHoverRevealGlobally = allProjects.some(
+      (project) => project.hoverReveal === false
+    );
+
+    if (disableHoverRevealGlobally) {
+      document.body.classList.add('disable-hover-reveal');
+    } else {
+      document.body.classList.remove('disable-hover-reveal');
+    }
 
     if (!isWorksPage) {
-      projects = projects.filter((project) => project.featured === true);
-
       if (projectFooter) {
         projectFooter.style.display = 'flex';
       }
@@ -213,8 +283,9 @@ async function loadProjects() {
       }
     }
 
-    renderFilters(projects);
-    renderProjects(projects);
+    renderFilters(allProjects);
+    setupSortToggle();
+    updateProjectView();
   } catch (error) {
     console.error('Failed to load projects:', error);
 

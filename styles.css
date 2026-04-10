@@ -102,7 +102,8 @@ button {
 .footer-links a,
 .view-all-btn,
 .back-link,
-.lightbox-close {
+.lightbox-close,
+.sort-icon-btn {
   transition: 0.3s ease;
 }
 
@@ -158,7 +159,8 @@ button {
 }
 
 .contact-btn:hover,
-.view-all-btn:hover {
+.view-all-btn:hover,
+.sort-icon-btn:hover {
   border-color: var(--accent);
   color: var(--accent);
   box-shadow: 0 0 0 1px rgba(255, 77, 90, 0.18), 0 10px 30px rgba(255, 77, 90, 0.1);
@@ -311,6 +313,14 @@ button {
   font-size: clamp(2.4rem, 6vw, 5rem);
 }
 
+.project-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .project-filter {
   display: flex;
   gap: 14px;
@@ -350,6 +360,23 @@ button {
 .filter-btn:hover::after,
 .filter-btn.active::after {
   transform: scaleX(1);
+}
+
+.sort-icon-btn {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line-strong);
+  background: transparent;
+  color: rgba(255,255,255,0.88);
+  cursor: pointer;
+}
+
+.sort-icon {
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .project-grid {
@@ -417,21 +444,33 @@ button {
   pointer-events: none;
 }
 
-.project-card:hover .project-image img,
-.project-card:hover .project-video {
-  transform: scale(1.06);
+.project-image img,
+.project-video {
+  transform: scale(1.02);
+  transition: filter 0.45s ease, transform 0.55s ease;
 }
 
+/* default = เปิด hover reveal */
 .project-image img,
 .project-video {
   filter: grayscale(100%) brightness(0.72);
-  transform: scale(1.02);
-  transition: filter 0.45s ease, transform 0.55s ease;
 }
 
 .project-card:hover .project-image img,
 .project-card:hover .project-video {
   filter: grayscale(0%) brightness(1);
+  transform: scale(1.06);
+}
+
+/* ถ้ามี project ใด project หนึ่ง hoverReveal:false ให้ปิดทั้งเว็บ */
+body.disable-hover-reveal .project-image img,
+body.disable-hover-reveal .project-video {
+  filter: none;
+}
+
+body.disable-hover-reveal .project-card:hover .project-image img,
+body.disable-hover-reveal .project-card:hover .project-video {
+  transform: scale(1.03);
 }
 
 .project-overlay {
@@ -914,6 +953,10 @@ button {
   .project-info-grid {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .project-toolbar {
+    justify-content: flex-start;
   }
 
   .project-filter {

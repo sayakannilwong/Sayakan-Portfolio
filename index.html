@@ -56,7 +56,21 @@
             <h2>PROJECTS</h2>
           </div>
 
-          <div class="project-filter" id="projectFilter"></div>
+          <div class="project-toolbar">
+            <div class="project-filter" id="projectFilter"></div>
+
+            <button
+              class="sort-icon-btn"
+              id="sortToggleBtn"
+              type="button"
+              data-order="desc"
+              aria-label="Sort by newest"
+              title="Sort by newest"
+            >
+              <span class="sort-icon" id="sortIcon">↓</span>
+            </button>
+          </div>
+
         </div>
 
         <div class="project-grid" id="projectGrid"></div>

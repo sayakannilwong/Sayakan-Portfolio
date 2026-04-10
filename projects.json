@@ -1,5 +1,6 @@
 [
   {
+    "no": 1,
     "id": "nut-walker-new-product",
     "title": "NUT WALKER\nNEW PRODUCT",
     "type": "SOCIAL DESIGN",
@@ -13,9 +14,11 @@
     "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
     "gallery": [
       { "type": "image", "src": "assets/IMG/thumbnail/NW - 6-2.png", "size": "square" }
-    ]
+    ],
+    "hoverReveal": true
   },
   {
+    "no": 2,
     "id": "heritage-olympic-day",
     "title": "HERITAGE CELEBRATE\nOLYMPIC DAY",
     "type": "SOCIAL DESIGN",
@@ -32,6 +35,7 @@
     ]
   },
   {
+    "no": 3,
     "id": "nut-walker-vegetarian-festival",
     "title": "NUT WALKER\nCHINESE VEGETARIAN FESTIVAL",
     "type": "SOCIAL DESIGN",
@@ -47,7 +51,8 @@
       { "type": "image", "src": "assets/IMG/thumbnail/NW SEP 24 - 8_NewLogo.jpg", "size": "square" }
     ]
   },
-  {
+  { 
+    "no": 4,
     "id": "bangkok-digital-finance-conference",
     "title": "BANGKOK DIGITAL\nFINANCE CONFERENCE",
     "type": "EXHIBITION",
@@ -60,35 +65,36 @@
     "role": "Spatial Graphic, Event Design",
     "overview": "An exhibition and stage graphic system developed for a finance conference event environment and supporting visuals.",
     "gallery": [
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_30.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_31.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_32.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_33.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_34.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_35.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_36.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_37.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_38.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_39.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_40.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_41.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_42.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_17.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_18.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_19.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_20.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_21.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_22.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_23.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_24.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_25.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_26.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_27.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_28.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_29.jpg", "size": "square" }
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_30.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_31.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_32.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_33.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_34.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_35.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_36.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_37.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_38.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_39.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_40.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_41.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_42.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_17.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_18.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_19.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_20.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_21.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_22.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_23.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_24.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_25.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_26.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_27.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_28.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_29.jpg", "size": "square" }
     ]
   },
   {
+    "no": 5,
     "id": "luv-event",
     "title": "LUV EVENT",
     "type": "EXHIBITION",
@@ -101,24 +107,25 @@
     "role": "Event Visual Design",
     "overview": "Event branding and spatial presentation developed to support a playful visual language in a physical venue.",
     "gallery": [
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_7.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_8.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_9.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_10.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_11.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_12.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_13.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_14.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_15.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_16.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_1.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_2.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_3.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_5.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_6.jpg", "size": "square" }
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_7.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_8.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_9.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_10.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_11.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_12.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_13.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_14.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_15.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_16.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_1.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_2.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_3.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_5.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_6.jpg", "size": "square" }
     ]
   },
   {
+    "no": 6,
     "id": "new-zealand-ball",
     "title": "NEW ZEALAND BALL",
     "type": "EXHIBITION",
@@ -131,15 +138,16 @@
     "role": "Event Environment Design",
     "overview": "A formal event visual system with venue graphics, presentation surfaces, and branded visual support materials.",
     "gallery": [
-      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_45.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_46.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_47.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_48.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_43.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_44.jpg", "size": "square" }
+      { "type": "image", "src": "assets/IMG/Exhibition/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_45.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_46.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_47.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_48.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_43.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_44.jpg", "size": "square" }
     ]
   },
   {
+    "no": 7,
     "id": "heritage-diplomat-event",
     "title": "HERITAGE\nงานภริยาทูต",
     "type": "EXHIBITION",
@@ -152,18 +160,19 @@
     "role": "Event Booth Design",
     "overview": "Exhibition support visual for a branded event setting with product storytelling and physical display design.",
     "gallery": [
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_51.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_52.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_53.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_54.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_55.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_56.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_57.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_49.jpg", "size": "square" },
-      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_50.jpg", "size": "square" }
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_51.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_52.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_53.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_54.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_55.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_56.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_57.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_49.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Exhibition/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_50.jpg", "size": "square" }
     ]
   },
   {
+    "no": 8,
     "id": "nut-walker-motion",
     "title": "NUT WALKER\nโฆษณา",
     "type": "MOTION",
@@ -180,6 +189,7 @@
     ]
   },
   {
+    "no": 9,
     "id": "luv-motion",
     "title": "LUV",
     "type": "MOTION",
@@ -196,6 +206,7 @@
     ]
   },
   {
+    "no": 10,
     "id": "blue-diamond-almonds",
     "title": "BLUE DIAMOND\nALMONDS",
     "type": "MOTION",
@@ -214,6 +225,487 @@
       {
         "type": "video-embed",
         "src": "https://www.youtube.com/embed/AxpVvNIFJOg?si=zVtUjjxltkQDlEHj",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 11,
+    "id": "wonder-puff-pop-con",
+    "title": "WonderPuff Popcorn",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/250310_WPMarPR.1.png",
+    "link": "project.html?id=wonder-puff-pop-con",
+    "featured": true,
+    "year": "2025",
+    "client": "WonderPuff",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/250310_WPMarPR.1.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 12,
+    "id": "Almond-Breeze-Cheer-to-try-1",
+    "title": "Almond Breeze\nเชียร์ชิม",
+    "type": "EXHIBITION",
+    "category": "exhibition",
+    "image": "assets/IMG/Exhibition/250815_BD-All booth.png",
+    "link": "project.html?id=Almond-Breeze-Cheer-to-try-1",
+    "featured": true,
+    "year": "2025",
+    "client": "Almond Breeze",
+    "role": "Art Direction, Exhibition Design",
+    "overview": "Exhibition visual design focused on bold brand communication, spatial graphics, and strong product presence.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Exhibitionl/250815_BD-All booth.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 13,
+    "id": "Almond-Breeze-Cheer-to-try-2",
+    "title": "Almond Breeze\nเชียร์ชิม",
+    "type": "EXHIBITION",
+    "category": "exhibition",
+    "image": "assets/IMG/Exhibition/250920_BD_Booth.png",
+    "link": "project.html?id=Almond-Breeze-Cheer-to-try-2",
+    "featured": true,
+    "year": "2025",
+    "client": "Almond Breeze",
+    "role": "Art Direction, Exhibition Design",
+    "overview": "Exhibition visual design focused on bold brand communication, spatial graphics, and strong product presence.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Exhibition/250920_BD_Booth.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 14,
+    "id": "Heritage-thanks-giving",
+    "title": "Heritage Thanks Giving",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/251120_HER Thanksgiving (NOV 24).png",
+    "link": "project.html?id=Heritage-thanks-giving",
+    "featured": true,
+    "year": "2025",
+    "client": "Heritage",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/251120_HER Thanksgiving (NOV 24).png", "size": "square" }
+    ]
+  },
+  {
+    "no": 15,
+    "id": "sunkist-sale-new-year",
+    "title": "Sunkist \n12.12 Sale ใหญ่ ส่งท้ายปี",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/251211_SK8_1.mp4",
+    "link": "project.html?id=sunkist-sale-new-year",
+    "featured": false,
+    "year": "2025",
+    "client": "Sunkist",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 16,
+    "id": "wonder-puff-hny",
+    "title": "WonderPuff \nHappy New Year",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/251224_WP HNY 26 (DEC 26)9-16.mp4",
+    "link": "project.html?id=wonder-puff-hny",
+    "featured": false,
+    "year": "2025",
+    "client": "WonderPuff",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 17,
+    "id": "sunkist-ad-",
+    "title": "Sunkist Ad Sale",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/260107_SK5.mp4",
+    "link": "project.html?id=sunkist-ad-",
+    "featured": false,
+    "year": "2026",
+    "client": "Sunkist",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 18,
+    "id": "wonder-puff-crunch-boos",
+    "title": "WonderPuff \nCranberry Popcorn",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/260112_WP Motion (JAN 13).mp4",
+    "link": "project.html?id=wonder-puff-crunch-boos",
+    "featured": false,
+    "year": "2026",
+    "client": "WonderPuff",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 19,
+    "id": "luv-break-fast",
+    "title": "Luv อาหารเช้า",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260113_Luv อาหารเช้า.png",
+    "link": "project.html?id=luv-break-fast",
+    "featured": true,
+    "year": "2026",
+    "client": "Luv",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260113_Luv อาหารเช้า.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 20,
+    "id": "sunkist-product-mixed-nuts",
+    "title": "Sunkist Product",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260119_SK10.1.png",
+    "link": "project.html?id=sunkist-product-mixed-nuts",
+    "featured": true,
+    "year": "2026",
+    "client": "Sunkist",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260119_SK10.1.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 21,
+    "id": "sunkist-ad-sale",
+    "title": "Sunkist Ad Sale",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260120_ข่าวโปร sk-02.png",
+    "link": "project.html?id=sunkist-ad-sale",
+    "featured": true,
+    "year": "2026",
+    "client": "Sunkist",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260120_ข่าวโปร sk-02.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 22,
+    "id": "nut-walker-ad-social",
+    "title": "Nut Walker \nAd Social",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260122_NW - 8.png",
+    "link": "project.html?id=nut-walker-ad-social",
+    "featured": true,
+    "year": "2026",
+    "client": "Nut Walker",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260122_NW - 8.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 23,
+    "id": "Heritage-new-product",
+    "title": "Heritage \nNew Product",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260204_HER Eat & Bake - Pro (FEB 4).png",
+    "link": "project.html?id=Heritage-new-product",
+    "featured": true,
+    "year": "2026",
+    "client": "Heritage",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260204_HER Eat & Bake - Pro (FEB 4).png", "size": "square" }
+    ]
+  },
+  {
+    "no": 24,
+    "id": "wonder-puff-cny",
+    "title": "WonderPuff \nHappy Chinese\nNew Year",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/260211_WP CNY Motion (FEB 12)_1.mp4",
+    "link": "project.html?id=wonder-puff-cny",
+    "featured": false,
+    "year": "2026",
+    "client": "WonderPuff",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 26,
+    "id": "luv-feb",
+    "title": "Luv \nงานภริยาฑูต 59",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260216_Luv AW งานภริยาทูต01.jpg",
+    "link": "project.html?id=luv-feb",
+    "featured": true,
+    "year": "2026",
+    "client": "Luv",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260216_Luv AW งานภริยาฑูต01.jpg", "size": "square" }
+    ]
+  },
+  {
+    "no": 27,
+    "id": "sunkist-cheer-to-try-1",
+    "title": "Sunkist \nเชียร์ชิม",
+    "type": "EXHIBITION",
+    "category": "exhibition",
+    "image": "assets/IMG/Exhibition/260218_Cheerchim01.png",
+    "link": "project.html?id=sunkist-cheer-to-try-1",
+    "featured": true,
+    "year": "2026",
+    "client": "Sunkist",
+    "role": "Art Direction, Exhibition Design",
+    "overview": "Exhibition visual design focused on bold brand communication, spatial graphics, and strong product presence.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Exhibition/260218_Cheerchim01.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 28,
+    "id": "luv-barista-day",
+    "title": "Luv \nNational Barista Day",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260223_Luv AW BARISTA DAY.png",
+    "link": "project.html?id=luv-barista-day",
+    "featured": true,
+    "year": "2026",
+    "client": "Luv",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260223_Luv AW BARISTA DAY.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 29,
+    "id": "sensation-711",
+    "title": "Sensation\nAd กราโนล่า",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260309_NS Pro 7-Eleven (MAR 9).png",
+    "link": "project.html?id=sensation-711",
+    "featured": true,
+    "year": "2026",
+    "client": "Sensatioin",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260309_NS Pro 7-Eleven (MAR 9).png", "size": "square" }
+    ]
+  },
+  {
+    "no": 30,
+    "id": "wonder-puff-ad",
+    "title": "WonderPuff \nAd",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/260311_WP Motion (MAR 19).mp4",
+    "link": "project.html?id=wonder-puff-ad",
+    "featured": false,
+    "year": "2026",
+    "client": "WonderPuff",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 31,
+    "id": "sunkist-ad-pistachios",
+    "title": "Sunkist \nAd Pistachios",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260316_SK9.png",
+    "link": "project.html?id=sunkist-ad-pistachios",
+    "featured": true,
+    "year": "2026",
+    "client": "Sunkist",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260316_SK9.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 32,
+    "id": "luv-milk-unsweet",
+    "title": "Luv Milk\nUnsweetened",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260317_Luv AW 2 flavor uns.png",
+    "link": "project.html?id=luv-milk-unsweet",
+    "featured": true,
+    "year": "2026",
+    "client": "Luv",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260317_Luv AW 2 flavor uns.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 33,
+    "id": "luv-milk-chocolate",
+    "title": "Luv Milk\nChocolate",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260317_Luv AW 2 flavor choc.png",
+    "link": "project.html?id=luv-milk-chocolate",
+    "featured": true,
+    "year": "2026",
+    "client": "Luv",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260317_Luv AW 2 flavor choc.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 34,
+    "id": "luv-milk-verify",
+    "title": "Luv Verify",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/260319_Luv AW verify.mp4",
+    "link": "project.html?id=luv-milk-verify",
+    "featured": false,
+    "year": "2026",
+    "client": "Luv",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
+        "size": "wide"
+      }
+    ]
+  },
+  {
+    "no": 35,
+    "id": "sunkist-promotion",
+    "title": "Sunkist \nโปรปังรับซัมเมอร์",
+    "type": "SOCIAL DESIGN",
+    "category": "social",
+    "image": "assets/IMG/Social/260401_SK2.png",
+    "link": "project.html?id=sunkist-promotion",
+    "featured": false,
+    "year": "2026",
+    "client": "Sunkist",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Social/260401_SK2.png", "size": "square" }
+    ]
+  },
+  {
+    "no": 36,
+    "id": "luv-milk-problem",
+    "title": "Luv milk \nYour Problem",
+    "type": "MOTION",
+    "category": "motion",
+    "mediaType": "image",
+    "videoType": "embed",
+    "video": "",
+    "image": "assets/IMG/Motion/260410_Luv Motion Problem.mp4",
+    "link": "project.html?id=luv-milk-problem",
+    "featured": false,
+    "year": "2026",
+    "client": "Luv",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "",
         "size": "wide"
       }
     ]
