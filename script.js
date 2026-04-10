@@ -4,6 +4,7 @@ const sections = document.querySelectorAll('main .section');
 const heroBg = document.querySelector('.hero-bg img');
 const projectGrid = document.getElementById('projectGrid');
 const projectFilter = document.getElementById('projectFilter');
+const projectFooter = document.getElementById('projectFooter');
 const isWorksPage = window.location.pathname.includes('works.html');
 
 window.addEventListener('scroll', () => {
@@ -32,7 +33,7 @@ const spyObserver = new IntersectionObserver((entries) => {
       const href = link.getAttribute('href');
 
       if (isWorksPage) {
-        link.classList.toggle('active', href === 'works.html' || href === '#projects');
+        link.classList.toggle('active', href === 'works.html');
       } else {
         link.classList.toggle('active', href === `#${id}`);
       }
@@ -44,6 +45,10 @@ const spyObserver = new IntersectionObserver((entries) => {
 });
 
 sections.forEach((section) => spyObserver.observe(section));
+
+function setupReveal(elements = document.querySelectorAll('.reveal')) {
+  elements.forEach((item) => revealObserver.observe(item));
+}
 
 function escapeHtml(value) {
   return String(value ?? '')
@@ -59,10 +64,10 @@ function normalizeProjects(data) {
 
   return data.filter((item) =>
     item &&
+    typeof item.id === 'string' &&
     typeof item.title === 'string' &&
     typeof item.type === 'string' &&
-    typeof item.category === 'string' &&
-    typeof item.image === 'string'
+    typeof item.category === 'string'
   );
 }
 
@@ -77,18 +82,58 @@ function getCategoryLabel(category) {
   return labels[category] || category.charAt(0).toUpperCase() + category.slice(1);
 }
 
+function getProjectLink(project) {
+  if (project.link && typeof project.link === 'string') {
+    return project.link;
+  }
+  return `project.html?id=${project.id}`;
+}
+
+function getProjectMedia(project) {
+  const isVideo = project.mediaType === 'video' && typeof project.video === 'string' && project.video.trim() !== '';
+
+  if (!isVideo) {
+    return `
+      <img src="${escapeHtml(project.image || '')}" alt="${escapeHtml(project.title)}" />
+    `;
+  }
+
+  if (project.videoType === 'file') {
+    return `
+      <video class="project-video" autoplay muted loop playsinline preload="metadata">
+        <source src="${escapeHtml(project.video)}" type="video/mp4" />
+      </video>
+    `;
+  }
+
+  if (project.videoType === 'embed') {
+    return `
+      <iframe
+        class="project-video-embed"
+        src="${escapeHtml(project.video)}"
+        title="${escapeHtml(project.title)}"
+        loading="lazy"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    `;
+  }
+
+  return `
+    <img src="${escapeHtml(project.image || '')}" alt="${escapeHtml(project.title)}" />
+  `;
+}
+
 function createProjectCard(project) {
   const titleHtml = project.titleHtml
     ? project.titleHtml
-    : escapeHtml(project.title).replace(/\n/g, '<br>');
-
-  const link = project.link ? project.link : '#';
+    : escapeHtml(project.title).replace(/\\n/g, '<br>');
 
   return `
     <article class="project-card reveal" data-category="${escapeHtml(project.category)}">
-      <a href="${escapeHtml(link)}" aria-label="${escapeHtml(project.title)}">
+      <a href="${escapeHtml(getProjectLink(project))}" aria-label="${escapeHtml(project.title)}">
         <div class="project-image">
-          <img src="${escapeHtml(project.image)}" alt="${escapeHtml(project.title)}" />
+          ${getProjectMedia(project)}
           <div class="project-overlay">
             <p class="project-type">${escapeHtml(project.type)}</p>
             <h3>${titleHtml}</h3>
@@ -109,6 +154,11 @@ function renderProjects(projects) {
 
   projectGrid.innerHTML = projects.map(createProjectCard).join('');
   setupReveal(projectGrid.querySelectorAll('.reveal'));
+
+  const videos = projectGrid.querySelectorAll('video');
+  videos.forEach((video) => {
+    video.play().catch(() => {});
+  });
 }
 
 function renderFilters(projects) {
@@ -141,10 +191,6 @@ function renderFilters(projects) {
   });
 }
 
-function setupReveal(elements = document.querySelectorAll('.reveal')) {
-  elements.forEach((item) => revealObserver.observe(item));
-}
-
 async function loadProjects() {
   try {
     const response = await fetch('./projects.json', { cache: 'no-store' });
@@ -157,6 +203,14 @@ async function loadProjects() {
 
     if (!isWorksPage) {
       projects = projects.filter((project) => project.featured === true);
+
+      if (projectFooter) {
+        projectFooter.style.display = 'flex';
+      }
+    } else {
+      if (projectFooter) {
+        projectFooter.style.display = 'none';
+      }
     }
 
     renderFilters(projects);

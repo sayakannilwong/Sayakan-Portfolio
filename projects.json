@@ -1,83 +1,221 @@
 [
   {
+    "id": "nut-walker-new-product",
     "title": "NUT WALKER\nNEW PRODUCT",
-    "type": "1 / SOCIAL DESIGN",
+    "type": "SOCIAL DESIGN",
     "category": "social",
     "image": "assets/IMG/thumbnail/NW - 6-2.png",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=nut-walker-new-product",
+    "featured": true,
+    "year": "2025",
+    "client": "Nut Walker",
+    "role": "Art Direction, Social Design",
+    "overview": "Campaign visual for a new product launch with a premium dark mood, bold typography, and packaging-focused composition.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/thumbnail/NW - 6-2.png", "size": "square" }
+    ]
   },
   {
+    "id": "heritage-olympic-day",
     "title": "HERITAGE CELEBRATE\nOLYMPIC DAY",
-    "type": "2 / SOCIAL DESIGN",
+    "type": "SOCIAL DESIGN",
     "category": "social",
     "image": "assets/IMG/thumbnail/250611_HER AW Olympic Day (JUN 23).png",
-    "link": "#"
-    ,
-    "featured": true
+    "link": "project.html?id=heritage-olympic-day",
+    "featured": true,
+    "year": "2025",
+    "client": "Heritage",
+    "role": "Key Visual, Social Campaign",
+    "overview": "Social campaign artwork designed around a celebratory Olympic theme with sharp contrast and information hierarchy.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/thumbnail/250611_HER AW Olympic Day (JUN 23).png", "size": "square" }
+    ]
   },
   {
+    "id": "nut-walker-vegetarian-festival",
     "title": "NUT WALKER\nCHINESE VEGETARIAN FESTIVAL",
-    "type": "3 / SOCIAL DESIGN",
+    "type": "SOCIAL DESIGN",
     "category": "social",
     "image": "assets/IMG/thumbnail/NW SEP 24 - 8_NewLogo.jpg",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=nut-walker-vegetarian-festival",
+    "featured": true,
+    "year": "2024",
+    "client": "Nut Walker",
+    "role": "Campaign Art Direction",
+    "overview": "A festive social artwork created for a seasonal campaign with product focus and a clean retail communication style.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/thumbnail/NW SEP 24 - 8_NewLogo.jpg", "size": "square" }
+    ]
   },
   {
+    "id": "bangkok-digital-finance-conference",
     "title": "BANGKOK DIGITAL\nFINANCE CONFERENCE",
-    "type": "4 / EXHIBITION",
+    "type": "EXHIBITION",
     "category": "exhibition",
     "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_30.jpg",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=bangkok-digital-finance-conference",
+    "featured": true,
+    "year": "2026",
+    "client": "Conference Event",
+    "role": "Spatial Graphic, Event Design",
+    "overview": "An exhibition and stage graphic system developed for a finance conference event environment and supporting visuals.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_30.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_31.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_32.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_33.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_34.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_35.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_36.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_37.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_38.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_39.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_40.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_41.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_42.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_17.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_18.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_19.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_20.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_21.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_22.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_23.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_24.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_25.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_26.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_27.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_28.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Finance Conference/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_29.jpg", "size": "square" }
+    ]
   },
   {
+    "id": "luv-event",
     "title": "LUV EVENT",
-    "type": "5 / EXHIBITION",
+    "type": "EXHIBITION",
     "category": "exhibition",
     "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_7.jpg",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=luv-event",
+    "featured": true,
+    "year": "2026",
+    "client": "LUV",
+    "role": "Event Visual Design",
+    "overview": "Event branding and spatial presentation developed to support a playful visual language in a physical venue.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_7.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_8.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_9.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_10.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_11.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_12.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_13.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_14.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_15.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_16.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_1.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_2.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_3.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_5.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/Luv/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_6.jpg", "size": "square" }
+    ]
   },
   {
+    "id": "new-zealand-ball",
     "title": "NEW ZEALAND BALL",
-    "type": "6 / EXHIBITION",
+    "type": "EXHIBITION",
     "category": "exhibition",
     "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_45.jpg",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=new-zealand-ball",
+    "featured": true,
+    "year": "2026",
+    "client": "Event Client",
+    "role": "Event Environment Design",
+    "overview": "A formal event visual system with venue graphics, presentation surfaces, and branded visual support materials.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_45.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_46.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_47.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_48.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_43.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/New Zealand Ball/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_44.jpg", "size": "square" }
+    ]
   },
   {
+    "id": "heritage-diplomat-event",
     "title": "HERITAGE\nงานภริยาทูต",
-    "type": "7 / EXHIBITION",
+    "type": "EXHIBITION",
     "category": "exhibition",
     "image": "assets/IMG/thumbnail/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_51.jpg",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=heritage-diplomat-event",
+    "featured": true,
+    "year": "2026",
+    "client": "Heritage",
+    "role": "Event Booth Design",
+    "overview": "Exhibition support visual for a branded event setting with product storytelling and physical display design.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_51.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_52.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_53.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_54.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_55.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_56.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_57.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_49.jpg", "size": "square" },
+      { "type": "image", "src": "assets/IMG/THE ART OF GIVING/LINE_ALBUM_เก็บงานใส่พอร์ต_260408_50.jpg", "size": "square" }
+    ]
   },
   {
+    "id": "nut-walker-motion",
     "title": "NUT WALKER\nโฆษณา",
-    "type": "8 / MOTION",
+    "type": "MOTION",
     "category": "motion",
     "image": "assets/IMG/thumbnail/Screenshot 2026-04-09 174114.png",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=nut-walker-motion",
+    "featured": true,
+    "year": "2026",
+    "client": "Nut Walker",
+    "role": "Motion Design",
+    "overview": "Motion graphic advertisement built around product visibility, clean pacing, and strong visual contrast.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/thumbnail/Screenshot 2026-04-09 174114.png", "size": "square" }
+    ]
   },
   {
+    "id": "luv-motion",
     "title": "LUV",
-    "type": "9 / MOTION",
+    "type": "MOTION",
     "category": "motion",
     "image": "assets/IMG/thumbnail/Screenshot 2026-04-09 174131.png",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=luv-motion",
+    "featured": true,
+    "year": "2026",
+    "client": "LUV",
+    "role": "Motion Design",
+    "overview": "A motion piece extending the LUV campaign language into animated content for digital presentation.",
+    "gallery": [
+      { "type": "image", "src": "assets/IMG/thumbnail/Screenshot 2026-04-09 174131.png", "size": "square" }
+    ]
   },
   {
+    "id": "blue-diamond-almonds",
     "title": "BLUE DIAMOND\nALMONDS",
-    "type": "10 / MOTION",
+    "type": "MOTION",
     "category": "motion",
+    "mediaType": "video",
+    "videoType": "embed",
+    "video": "https://www.youtube.com/watch?v=AxpVvNIFJOg",
     "image": "assets/IMG/thumbnail/Screenshot 2026-04-09 174157.png",
-    "link": "#",
-    "featured": true
+    "link": "project.html?id=blue-diamond-almonds",
+    "featured": true,
+    "year": "2026",
+    "client": "Blue Diamond",
+    "role": "Motion Ad Design",
+    "overview": "Motion ad composition focused on dramatic product presentation, sharp text framing, and premium visual tone.",
+    "gallery": [
+      {
+        "type": "video-embed",
+        "src": "https://www.youtube.com/watch?v=AxpVvNIFJOg",
+        "size": "wide"
+      }
+    ]
   }
 ]

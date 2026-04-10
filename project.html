@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Detail | Few Portfolio</title>
+  <meta name="description" content="Project detail page" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header scrolled">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html#hero">FEW</a>
+
+      <nav class="nav">
+        <a href="index.html#hero" class="nav-link">HOME</a>
+        <a href="works.html" class="nav-link active">WORK</a>
+        <a href="index.html#about" class="nav-link">ABOUT</a>
+      </nav>
+
+      <a class="contact-btn" href="index.html#contact">CONTACT</a>
+    </div>
+  </header>
+
+  <main class="project-page">
+    <section class="project-hero section">
+      <div class="container">
+        <a class="back-link" href="works.html">← BACK TO WORKS</a>
+
+        <div class="project-head" id="projectHead">
+          <p class="eyebrow">PROJECT</p>
+          <h1>Loading...</h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-banner section">
+      <div class="container">
+        <div class="project-banner-image" id="projectBanner"></div>
+      </div>
+    </section>
+
+    <section class="project-info section">
+      <div class="container project-info-grid">
+        <div>
+          <p class="eyebrow">Overview</p>
+          <p class="project-overview" id="projectOverview"></p>
+        </div>
+
+        <div class="project-meta-list" id="projectMeta"></div>
+      </div>
+    </section>
+
+    <section class="project-gallery section">
+      <div class="container">
+        <p class="eyebrow">Gallery</p>
+        <div class="project-gallery-grid" id="projectGallery"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <img class="lightbox-image" id="lightboxImage" src="" alt="" />
+  </div>
+
+  <script src="project.js"></script>
+</body>
+</html>

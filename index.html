@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Few Portfolio</title>
-  <meta name="description" content="Minimal dark portfolio for GitHub Pages" />
+  <meta name="description" content="Portfolio website for GitHub Pages" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -37,8 +37,8 @@
         <p class="eyebrow">Creative Direction / Portfolio</p>
         <h1>PORTFOLIO</h1>
         <p class="hero-text">
-          Redefining digital landscapes through <span>brutalism</span> and <span>Neon Noir</span>
-          aesthetics. Based in the shadows, creating for the light.
+          A curated selection of branding, social, motion, and event design work.
+          Built as a clean static site ready for GitHub Pages.
         </p>
 
         <a href="#projects" class="scroll-link">
@@ -61,7 +61,7 @@
 
         <div class="project-grid" id="projectGrid"></div>
 
-        <div class="project-footer reveal">
+        <div class="project-footer reveal" id="projectFooter">
           <a href="works.html" class="view-all-btn">VIEW ALL WORKS</a>
         </div>
       </div>
@@ -76,11 +76,11 @@
 
         <div class="reveal">
           <p>
-            This portfolio is designed to showcase all of my past work.
+            This portfolio uses JSON as the single source of truth for project data.
+            The homepage shows featured work, while the works page shows the full archive.
           </p>
           <p>
-            Project thumbnails start in grayscale and reveal full color on hover
-            for a sharper, more premium presentation.
+            Each project card links to a reusable project detail template, so you only manage content in one place.
           </p>
         </div>
       </div>
@@ -92,16 +92,11 @@
         <h2>LET’S<br>TALK</h2>
 
         <div class="contact-actions">
-          <a
-            class="mail-btn"
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=sayakannilwong@gmail.com&su=Project%20Inquiry&body=Hello%20Few,"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a class="mail-btn" href="mailto:sayakannilwong@gmail.com?subject=Project%20Inquiry">
             sayakannilwong@gmail.com <span>→</span>
           </a>
-          <a class="icon-btn" href="#" aria-label="Share">↗</a>
-          <a class="icon-btn" href="#" aria-label="Like">♡</a>
+          <a class="icon-btn" href="#" aria-label="Instagram">↗</a>
+          <a class="icon-btn" href="#" aria-label="LinkedIn">♡</a>
         </div>
       </div>
     </section>
@@ -110,9 +105,12 @@
   <footer class="site-footer">
     <div class="container footer-wrap">
       <span>FEW</span>
-      <span>© 2026 TOP. ALL RIGHTS RESERVED.</span>
+      <span>© 2026 FEW. ALL RIGHTS RESERVED.</span>
 
       <div class="footer-links">
+        <a href="#">INSTAGRAM</a>
+        <a href="#">TWITTER</a>
+        <a href="#">LINKEDIN</a>
       </div>
     </div>
   </footer>
